@@ -35,7 +35,7 @@ class Cast
 
     private static function check_class(mixed $value, string $class_name):void
     {
-        if(!is_object($value) || (is_object($value) && get_class($value) === $class_name)) throw new CastException($class_name, $value);
+        if(!is_object($value) || (is_object($value) && get_class($value) !== $class_name)) throw new CastException($class_name, $value);
     }
 
     private static function check_type(mixed $value, string $type):void
