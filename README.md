@@ -1,4 +1,4 @@
-# phpfilemanager
+# php-array-cast
 
 Install:
 

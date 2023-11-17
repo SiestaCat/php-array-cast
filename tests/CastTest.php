@@ -1,6 +1,6 @@
 <?php
 
-namespace Siestacat\Phpfilemanager\Tests\File;
+namespace Siestacat\PhpArrayCast\Tests\File;
 use PHPUnit\Framework\TestCase;
 use Siestacat\PhpArrayCast\Cast;
 use Siestacat\PhpArrayCast\Exception\CastException;
